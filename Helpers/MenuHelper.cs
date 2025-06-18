@@ -75,7 +75,7 @@ namespace ModernAppliances.Helpers
                     int postQty = appliance.CheckOutAppliance();
                     if (preQty > postQty)
                     {
-                        Console.WriteLine($"Appliance {appliance.ItemNumber} has been checked out.");
+                        Console.WriteLine($"Appliance \"{appliance.ItemNumber}\" has been checked out.");
                     }
                     else
                     {
